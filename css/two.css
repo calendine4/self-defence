@@ -1,0 +1,107 @@
+html, body
+{
+    height:100%;
+    margin:0;
+}
+#nav
+{
+    height:10%;
+    background-color:grey;
+}
+
+
+#ul1
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    width:100%;
+    background-color:#696969;
+    border:1px solid #555;
+}
+
+
+li a{
+    display:block;
+    color:black;
+    padding:1px 2px;
+    text-decoration:none;
+    
+}
+li
+{text-align:center;
+list-style-type:none;
+
+}
+#main
+{
+   
+    background-image:url("../img/childsad.jpg");
+     height:70%;
+     background-size:100% 100%;
+}
+#ml
+{
+    height:100%;
+    float:left;
+    width:26%;
+    background-color:#64646464;
+}
+#mr
+{
+    height:100%;
+    float:right;
+    width:22%;
+    background-color:#64646464;
+
+}    
+
+
+
+li a.active{
+    background-color:#b22222;
+    color:yellow;
+    
+}
+li a:hover:not(.active)
+{
+    background-color:grey;
+    color:yellow;
+}
+h1
+{font-size:35px;
+text-align:center;
+color:black;
+}
+#footer
+{
+    height:15%;
+    width:100%;
+    background-color:#696969;
+    text-align:center;
+    
+    
+}
+
+.red
+
+{
+    color:#b22222;
+}
+.red2
+{
+    color:#b22222;
+}
+.red3
+{color:#b22222;
+}
+.fstyle
+{
+    font-family:'Nosifer', cursive;;
+    color:black;
+    text-decoration:overline;
+}
+#text1
+{
+    padding:0;
+}

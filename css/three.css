@@ -1,0 +1,142 @@
+html, body
+{
+height:100%;
+margin:0;
+}
+
+#nav
+{    
+height:10%;
+margin:0;
+}
+
+ul
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    width:100%;
+    background-color:#696969;
+    border:1px solid #555;
+}
+
+li a
+{
+    display:block;
+    color:black;
+    padding:1px 2px;
+    text-decoration:none;
+
+}
+
+
+li
+{
+    text-align:center;
+   
+}
+
+li a.active{
+    background-color:#b22222;
+    color:yellow;
+    
+}
+li a:hover:not(.active)
+{
+    background-color:grey;
+    color:yellow;
+}
+
+
+.hands
+{
+height:100%;
+width:30%;
+background-size:100% 100%;
+background-image:url("../img/fist.jpg");
+background-repeat:no-repeat;
+float:left;
+}
+.sensei
+{
+    height:100%;
+    width:70%;
+background-size:100% 100%;
+    background-image:url("../img/kungfu.jpg");
+    background-repeat:no-repeat;
+    float:right;
+}
+#main
+{
+height:70%;
+
+}
+
+
+#p
+{
+    color:red;
+    font-family:fantasy;
+    text-align:left;
+    font-size:75px;
+
+}
+
+#footer
+{
+    height:15%;
+    width:100%;
+    background-color:#696969;
+    text-align: center;
+    box-sizing:border-box;
+    
+}
+#t2
+{
+    width:50%;
+    font-size:20px;
+    position:relative;
+   top:67%;
+   color:yellow;
+}
+#first
+{
+    float:right;
+    width:50%;
+    font-size:20px;
+}
+
+#title
+{
+    background-color:#b22222;
+    height:10%;
+   margin-top:-2.6%;
+   
+}
+#p1
+{
+    text-align:center;
+    padding:1%;
+    color:yellow;
+    font-size:35px;
+    
+}
+   
+   
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
